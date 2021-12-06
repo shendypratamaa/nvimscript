@@ -7,4 +7,3 @@ source $HOME/.config/nvim/themes/airline.vim
 source $HOME/.config/nvim/intellisense/sneak.vim
 source $HOME/.config/nvim/intellisense/telescope.vim
 source $HOME/.config/nvim/intellisense/tree-sitter.vim
-source $HOME/.config/nvim/themes/dashboard/neovim.vim

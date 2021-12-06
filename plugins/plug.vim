@@ -18,7 +18,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-    Plug 'glepnir/dashboard-nvim'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'ap/vim-css-color'
 call plug#end()
