@@ -22,4 +22,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'ap/vim-css-color'
     Plug 'karb94/neoscroll.nvim'
     Plug 'Yggdroot/indentLine'
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 call plug#end()
