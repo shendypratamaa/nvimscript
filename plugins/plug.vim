@@ -9,10 +9,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
     Plug 'simeji/winresizer'
     Plug 'joshdick/onedark.vim'
-    Plug 'dracula/vim', { 'as': 'dracula' }
+    Plug 'nvim-lualine/lualine.nvim'
+    Plug 'kyazdani42/nvim-web-devicons'
     Plug 'ryanoasis/vim-devicons'
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
     Plug 'tpope/vim-fugitive'
     Plug 'justinmk/vim-sneak'
     Plug 'nvim-lua/plenary.nvim'
@@ -22,4 +21,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'ap/vim-css-color'
     Plug 'karb94/neoscroll.nvim'
+    Plug 'Yggdroot/indentLine'
 call plug#end()
