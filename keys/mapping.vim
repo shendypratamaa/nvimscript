@@ -1,6 +1,7 @@
 " I hate escape more than anything else
 inoremap jk <Esc>
 inoremap kj <Esc>
+inoremap jj <Esc>
 
 " TAB in general mode will move to text buffer
 nnoremap <TAB> :bnext<CR>
