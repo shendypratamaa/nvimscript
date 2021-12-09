@@ -20,5 +20,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'karb94/neoscroll.nvim'
     Plug 'Yggdroot/indentLine'
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+    Plug 'ryanoasis/vim-devicons'
     Plug 'airblade/vim-gitgutter'
 call plug#end()

@@ -2,7 +2,6 @@
 
 " nmap <space>r :RnvimrToggle<CR>
 
-
 if exists('g:ranger_choice_file')
   if empty(glob(g:ranger_choice_file))
     let s:choice_file_path = g:ranger_choice_file
