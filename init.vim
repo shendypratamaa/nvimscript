@@ -8,4 +8,3 @@ source $HOME/.config/nvim/intellisense/telescope.vim
 source $HOME/.config/nvim/intellisense/tree-sitter.vim
 source $HOME/.config/nvim/themes/scroll/smtscroll.vim
 source $HOME/.config/nvim/themes/onedark.vim
-source $HOME/.config/nvim/themes/lualine.vim:win

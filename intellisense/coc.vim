@@ -190,8 +190,5 @@ let g:coc_explorer_global_presets = {
 \ }
 
 nmap <C-n> :CocCommand explorer<CR>
-nmap <C-b> :CocCommand explorer --preset floating<CR>
+nmap <C-u> :CocCommand explorer --preset floating<CR>
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
-
-autocmd CursorHold * silent call CocActionAsync('highlight')
-

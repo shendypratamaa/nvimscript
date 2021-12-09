@@ -10,8 +10,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'simeji/winresizer'
     Plug 'joshdick/onedark.vim'
     Plug 'nvim-lualine/lualine.nvim'
-    Plug 'kyazdani42/nvim-web-devicons'
-    Plug 'ryanoasis/vim-devicons'
     Plug 'tpope/vim-fugitive'
     Plug 'justinmk/vim-sneak'
     Plug 'nvim-lua/plenary.nvim'
@@ -22,4 +20,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'karb94/neoscroll.nvim'
     Plug 'Yggdroot/indentLine'
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    Plug 'airblade/vim-gitgutter'
 call plug#end()
