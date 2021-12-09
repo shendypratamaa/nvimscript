@@ -1,4 +1,6 @@
 {
+  "default": true,
+  "line_length": false,
   "coc.preferences.formatOnSaveFiletypes": ["*"],
   // explorer
   "explorer.width": 25,
