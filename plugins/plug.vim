@@ -19,7 +19,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    Plug 'ap/vim-css-color'
     Plug 'karb94/neoscroll.nvim'
     Plug 'Yggdroot/indentLine'
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
