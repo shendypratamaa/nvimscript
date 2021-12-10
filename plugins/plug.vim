@@ -23,5 +23,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'ryanoasis/vim-devicons'
+    Plug 'glepnir/dashboard-nvim'
     Plug 'airblade/vim-gitgutter'
 call plug#end()

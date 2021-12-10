@@ -2,6 +2,7 @@
 inoremap jk <Esc>
 inoremap kj <Esc>
 inoremap jj <Esc>
+inoremap kk <Esc>
 
 " TAB in general mode will move to text buffer
 nnoremap <TAB> :bnext<CR>

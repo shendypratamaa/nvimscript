@@ -39,7 +39,7 @@ if (has("termguicolors"))
 endif
 
 " airline settings
-let g:airline#extensions#tabline#enabled = 2
+let g:airline#extensions#tabline#enabled = 1
 
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
@@ -52,7 +52,8 @@ let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = '    '
 
-let g:airline_section_z = '%{strftime("%H:%M  %D  %Y")}'
+" let g:airline_section_z = '%{strftime("%H:%M  %D  %Y")}'
+let g:airline_section_z = '%{strftime("%H:%M ")}'
 
 " webdev icons settings
 " loading the plugin
