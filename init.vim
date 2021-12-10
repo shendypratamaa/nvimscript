@@ -9,3 +9,5 @@ source $HOME/.config/nvim/intellisense/tree-sitter.vim
 source $HOME/.config/nvim/themes/scroll/smtscroll.vim
 source $HOME/.config/nvim/themes/onedark.vim
 source $HOME/.config/nvim/themes/dashboard.vim
+source $HOME/.config/nvim/themes/airline.vim
+source $HOME/.config/nvim/themes/webdevicon.vim
