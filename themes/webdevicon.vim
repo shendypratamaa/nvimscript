@@ -1,4 +1,8 @@
 " webdev icons settings
+"
+"
+"
+" 
 " loading the plugin
 let g:webdevicons_enable = 1
 " adding the custom source to unite

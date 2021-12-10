@@ -4,7 +4,7 @@
   "coc.preferences.colorSupport": true,
   "coc.preferences.formatOnSaveFiletypes": ["*"],
   // explorer
-  "explorer.width": 25,
+  "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
