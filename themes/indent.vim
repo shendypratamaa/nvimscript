@@ -5,6 +5,6 @@ let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 
 let g:indentLine_defaultGroup = 'SpecialKey'
 let g:indentLine_conceallevel = 2
-let g:indentLine_enabled = 0
+let g:indentLine_enabled = 1
 
 nnoremap <C-a> :IndentLinesToggle<cr>
