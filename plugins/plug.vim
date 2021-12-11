@@ -25,5 +25,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     Plug 'ryanoasis/vim-devicons'
     Plug 'glepnir/dashboard-nvim'
-    Plug 'airblade/vim-gitgutter'
+    Plug 'mhinz/vim-signify'
+    Plug 'tpope/vim-rhubarb'
+    Plug 'junegunn/gv.vim'
 call plug#end()
