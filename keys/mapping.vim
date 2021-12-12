@@ -29,3 +29,13 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
+let g:tmux_navigator_no_mappings = 1
+let g:tmux_navigator_save_on_switch = 2
+let g:tmux_navigator_disable_when_zoomed = 1
+let g:tmux_navigator_preserve_zoom = 1
+
+nnoremap <silent> <C-h> :TmuxNavigateLeft<cr>
+nnoremap <silent> <C-j> :TmuxNavigateDown<cr>
+nnoremap <silent> <C-k> :TmuxNavigateUp<cr>
+nnoremap <silent> <C-l> :TmuxNavigateRight<cr>
