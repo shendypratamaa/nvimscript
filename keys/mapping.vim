@@ -28,6 +28,9 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" remove buffer 
+nnoremap <C-w>w :bd<cr>
+
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 let g:tmux_navigator_no_mappings = 1
