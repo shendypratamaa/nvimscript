@@ -29,4 +29,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
     Plug 'christoomey/vim-tmux-navigator'
+    Plug 'liuchengxu/vim-which-key'
 call plug#end()
