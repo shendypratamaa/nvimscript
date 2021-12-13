@@ -30,4 +30,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/gv.vim'
     Plug 'christoomey/vim-tmux-navigator'
     Plug 'liuchengxu/vim-which-key'
+    Plug 'kyazdani42/nvim-web-devicons'
 call plug#end()
