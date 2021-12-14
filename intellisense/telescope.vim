@@ -56,3 +56,5 @@ require('telescope').setup{
   },
 } 
 EOF
+
+nnoremap <silent><leader>ff :lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({}))<CR>
