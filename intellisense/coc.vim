@@ -156,3 +156,7 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 " Open Explorer
 nmap <C-n> :CocCommand explorer<CR>
+
+" coc-react-refactor
+xmap <leader>rf :<Plug>(coc-codeaction-selected)
+nmap <leader>rf :<Plug>(coc-codeaction-selected)
