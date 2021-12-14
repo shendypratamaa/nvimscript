@@ -1,7 +1,9 @@
 {
+  // styled-components-config
   "styled-components.tags": ["styled", "css", "sty", "createGlobalStyle"],
   "styled-components.validate": true,
   "styled-components.lint": {},
+  // icon-config
   "suggest.completionItemKindLabels": {
     "method": "  ",
     "function": "  ",
@@ -29,10 +31,36 @@
     "value": "  ",
     "enumMember": "  "
   },
+  // format on save
   "default": true,
   "line_length": false,
   "coc.preferences.colorSupport": true,
   "coc.preferences.formatOnSaveFiletypes": ["*"],
+  // eslint config
+  "eslint.enable": true,
+  "eslint.packageManager": ["npm", "yarn"],
+  "eslint.alwaysShowStatus": false,
+  "eslint.trace.server": "off",
+  "eslint.run": "onType",
+  "eslint.autoFixOnSave": true,
+  "eslint.quiet": false,
+  "eslint.onIgnoredFiles": ["warn", "off"],
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "mardown",
+    "vue"
+  ],
+  "eslint.codeAction.dsableRuleComment": {
+    "enable": true,
+    "location": "separateLine"
+  },
+  "eslint.codeAction.showDocumentation": { "enable": true },
+  "eslint.codeActionsOnSave.mode": ["all", "problem"],
+  "eslint.format.enable": true,
   // explorer
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
@@ -45,5 +73,20 @@
   },
   "list.insertMappings": {
     "<C-c>": "do:exit"
-  }
+  },
+  // ts cofig
+  "tsserver.enable": true,
+  "tsserver.formatOnType": true,
+  "tsserver.enableJavascript": true,
+  "tsserver.log": "off",
+  "tsserver.trace.server": "off",
+  "tsserver.reportStyleChecksAsWarnings": true,
+  "typescript.updateImportsOnFIleMove.enable": true,
+  "typescript.referencesCodeLens.enable": true,
+  "typescript.preferences.quotesStyle": "single",
+  "typescript.suggestionActions.enable": true,
+  "typescript.validate.enable": true,
+  "typescript.showUnused": true,
+  "typescript.autoClosingTags": true,
+  "typescript.suggest.autoImports": true
 }
