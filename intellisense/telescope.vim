@@ -39,8 +39,6 @@ require('telescope').setup{
         mirror = false,
       },
     },
-    file_sorter =  require'telescope.sorters'.get_fuzzy_file,
-    generic_sorter =  require'telescope.sorters'.get_generic_fuzzy_sorter,
     file_ignore_patterns = {},
     border = {},
     path_display = {},
@@ -53,6 +51,8 @@ require('telescope').setup{
     grep_previewer = require'telescope.previewers'.vim_buffer_vimgrep.new,
     qflist_previewer = require'telescope.previewers'.vim_buffer_qflist.new,
     buffer_previewer_maker = require'telescope.previewers'.buffer_previewer_maker,
+    file_sorter =  require'telescope.sorters'.get_fuzzy_file,
+    generic_sorter =  require'telescope.sorters'.get_generic_fuzzy_sorter,
   },
-}
+} 
 EOF

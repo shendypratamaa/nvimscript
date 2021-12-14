@@ -47,3 +47,7 @@ nnoremap <silent> <C-l> :TmuxNavigateRight<cr>
 " commentary 
 nnoremap <leader>/ :Commentary<CR>
 vnoremap <leader>/ :Commentary<CR>
+
+" auto-pairs
+let g:AutoPairsFlyMode =  0
+let g:AutoPairsShortcutToggle = '<M-b>'
