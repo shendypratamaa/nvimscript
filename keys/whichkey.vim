@@ -10,7 +10,7 @@ let g:which_key_sep = '→'
 let g:timeoutlen = 100
 
 " Not a fan of floating windows for this
-let g:which_key_use_floating_win = 1
+let g:which_key_use_floating_win = 0
 
 " Change the colors if you want
 highlight default link WhichKey          Operator
