@@ -27,6 +27,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'glepnir/dashboard-nvim'
     Plug 'mhinz/vim-signify'
     Plug 'tpope/vim-rhubarb'
+    Plug 'tpope/vim-commentary'
     Plug 'junegunn/gv.vim'
     Plug 'christoomey/vim-tmux-navigator'
     Plug 'liuchengxu/vim-which-key'

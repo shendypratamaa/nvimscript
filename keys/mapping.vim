@@ -33,6 +33,7 @@ nnoremap <C-w>w :bd<cr>
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
+" vim-tmux-navigator
 let g:tmux_navigator_no_mappings = 1
 let g:tmux_navigator_save_on_switch = 2
 let g:tmux_navigator_disable_when_zoomed = 1
@@ -42,3 +43,7 @@ nnoremap <silent> <C-h> :TmuxNavigateLeft<cr>
 nnoremap <silent> <C-j> :TmuxNavigateDown<cr>
 nnoremap <silent> <C-k> :TmuxNavigateUp<cr>
 nnoremap <silent> <C-l> :TmuxNavigateRight<cr>
+
+" commentary 
+nnoremap <leader>/ :Commentary<CR>
+vnoremap <leader>/ :Commentary<CR>
