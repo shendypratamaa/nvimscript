@@ -1,5 +1,5 @@
 " airline settings
-let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled = 0
 
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}

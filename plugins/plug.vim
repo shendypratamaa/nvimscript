@@ -32,4 +32,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'christoomey/vim-tmux-navigator'
     Plug 'liuchengxu/vim-which-key'
     Plug 'kyazdani42/nvim-web-devicons'
+    Plug 'akinsho/bufferline.nvim'
 call plug#end()
