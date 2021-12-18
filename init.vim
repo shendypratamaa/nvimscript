@@ -11,7 +11,7 @@ source $HOME/.config/nvim/intellisense/signify.vim
 source $HOME/.config/nvim/themes/scroll/smtscroll.vim
 source $HOME/.config/nvim/themes/tokyonight.vim
 source $HOME/.config/nvim/themes/dashboard.vim
-source $HOME/.config/nvim/themes/airline.vim
+source $HOME/.config/nvim/themes/lualine.vim
 source $HOME/.config/nvim/themes/webdevicon.vim
 source $HOME/.config/nvim/themes/indent.vim
 source $HOME/.config/nvim/themes/bufferline.lua

@@ -8,8 +8,7 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
     Plug 'simeji/winresizer'
-    Plug 'joshdick/onedark.vim'
-    Plug 'ghifarit53/tokyonight-vim'
+    Plug 'folke/tokyonight.nvim'
     Plug 'nvim-lualine/lualine.nvim'
     Plug 'tpope/vim-fugitive'
     Plug 'justinmk/vim-sneak'
@@ -21,8 +20,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'karb94/neoscroll.nvim'
     Plug 'Yggdroot/indentLine'
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
     Plug 'ryanoasis/vim-devicons'
     Plug 'glepnir/dashboard-nvim'
     Plug 'mhinz/vim-signify'
