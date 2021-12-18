@@ -1,18 +1,13 @@
 lua <<EOF
-require'lualine'.get_config()
-require'lualine'.setup {
+require('lualine').setup {
   options = {
     icons_enabled = true,
-    theme = 'tokyonight-vim',
-    component_separators = {left = ' ', right = ' '},
-    section_separators = {left = ' ', right = ' '},
-    disabled_filetypes = {},
+    theme = 'tokyonight',
     always_divide_middle = true,
   },
   sections = {
-    lualine_a = {
-        {'mode', fmt = function(str) return str:sub(1,1) end}},
-        lualine_b = {'branch'},
+    lualine_a = {'mode'},
+    lualine_b = {'branch'},
     lualine_c = {'filename'},
     lualine_x = {'encoding', 'fileformat', 'filetype'},
     lualine_y = {'progress'},
