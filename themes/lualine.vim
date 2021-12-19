@@ -2,7 +2,7 @@ lua <<EOF
 require('lualine').setup {
   options = {
     icons_enabled = true,
-    theme = 'tokyonight',
+    theme = 'palenight',
     always_divide_middle = true,
   },
   sections = {

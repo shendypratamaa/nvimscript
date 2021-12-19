@@ -58,4 +58,4 @@ nnoremap <silent><leader>2 <Cmd>BufferLineGoToBuffer 2<CR>
 nnoremap <silent><leader>3 <Cmd>BufferLineGoToBuffer 3<CR>
 
 " keybind for matchup parent code 
-nnoremap <silent><leader>k :<c-u>MatchupWhereAmI?<cr>
+nnoremap <leader>i :<c-u>MatchupWhereAmI?<cr>

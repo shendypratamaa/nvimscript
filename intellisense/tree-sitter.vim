@@ -1,11 +1,10 @@
-set termguicolors
-
 lua <<EOF
   require'nvim-treesitter.configs'.setup({
     ensure_installed = "maintained",
     ignore_install = { "haskel" },
     highlight = {
       enable = true,
+      disable = { "c", "rust" },
       additional_vim_regex_highlighting = false,
     },
     autotag = {
@@ -28,3 +27,12 @@ lua <<EOF
     }
   })
 EOF
+
+let g:nvcode_termcolors=256
+
+colorscheme palenight
+
+if (has("termguicolors"))
+    set termguicolors
+    hi LineNr ctermbg=NONE guibg=NONE
+endif

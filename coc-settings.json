@@ -34,10 +34,6 @@
   // format on save
   "default": true,
   "line_length": false,
-  "coc.preferences.colorSupport": true,
-  "coc.highlight.document.enable": true,
-  "coc.highlight.colors.enable": true,
-  "coc.highlight.colorNames.enable": true,
   "coc.preferences.formatOnSaveFiletypes": ["*"],
   // eslint config
   "eslint.enable": true,
