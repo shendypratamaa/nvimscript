@@ -1,6 +1,6 @@
 source $HOME/.config/nvim/plugins/plug.vim
 source $HOME/.config/nvim/general/settings.vim
-source $HOME/.config/nvim/general/ranger-img.vim
+source $HOME/.config/nvim/general/ranger.vim
 source $HOME/.config/nvim/keys/mapping.vim
 source $HOME/.config/nvim/keys/whichkey.vim
 source $HOME/.config/nvim/intellisense/coc.vim
