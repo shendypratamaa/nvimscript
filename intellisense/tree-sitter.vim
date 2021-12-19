@@ -3,9 +3,8 @@ lua <<EOF
     ensure_installed = "maintained",
     ignore_install = { "haskel" },
     highlight = {
-      enable = true,
+      enable = false,
       disable = { "c", "rust" },
-      additional_vim_regex_highlighting = false,
     },
     autotag = {
       enable = true,

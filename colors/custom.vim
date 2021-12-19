@@ -7,6 +7,7 @@ highlight TSPunctSpecial guifg=#ABB2BF
 " Constants
 highlight TSConstant guifg=#DCDCAA
 highlight TSConstBuiltin guifg=#569CD6
+
 " Not sure about this guy
 highlight TSConstMacro guifg=#4EC9B0
 highlight TSString guifg=#CE9178
@@ -37,6 +38,7 @@ highlight TSConstructor guifg=#4EC9B0
 highlight TSConditional guifg=#C586C0
 highlight TSRepeat guifg=#C586C0
 highlight TSLabel guifg=#FF00FF
+
 " Does not work for yield and return they should be diff then class and def
 highlight TSKeyword guifg=#569CD6
 highlight TSKeywordFunction guifg=#FF00FF
