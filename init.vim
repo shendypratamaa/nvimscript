@@ -15,3 +15,4 @@ source $HOME/.config/nvim/themes/lualine.vim
 source $HOME/.config/nvim/themes/webdevicon.vim
 source $HOME/.config/nvim/themes/indent.vim
 source $HOME/.config/nvim/themes/bufferline.lua
+source $HOME/.config/nvim/themes/parentheses-rainbow.vim

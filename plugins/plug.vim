@@ -16,8 +16,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-    Plug 'p00f/nvim-ts-rainbow'
     Plug 'windwp/nvim-ts-autotag'
+    Plug 'kien/rainbow_parentheses.vim'
     Plug 'andymass/vim-matchup'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'karb94/neoscroll.nvim'

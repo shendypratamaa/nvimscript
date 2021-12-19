@@ -1,3 +1,5 @@
+set termguicolors
+
 lua <<EOF
   require'nvim-treesitter.configs'.setup({
     ensure_installed = "maintained",
@@ -5,9 +7,6 @@ lua <<EOF
     highlight = {
       enable = true,
       additional_vim_regex_highlighting = false,
-    },
-    rainbow = {
-      enable = true,
     },
     autotag = {
       enable = true,
