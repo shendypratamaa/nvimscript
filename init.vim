@@ -14,3 +14,4 @@ source $HOME/.config/nvim/themes/lualine.vim
 source $HOME/.config/nvim/themes/webdevicon.vim
 source $HOME/.config/nvim/themes/bufferline.lua
 source $HOME/.config/nvim/themes/indentblankline.lua
+source $HOME/.config/nvim/themes/colorizer.lua

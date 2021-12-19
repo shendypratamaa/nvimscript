@@ -9,6 +9,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'jiangmiao/auto-pairs'
   Plug 'simeji/winresizer'
   Plug 'christianchiarulli/nvcode-color-schemes.vim'
+  Plug 'norcalli/nvim-colorizer.lua'
   Plug 'nvim-lualine/lualine.nvim'
   Plug 'tpope/vim-fugitive'
   Plug 'justinmk/vim-sneak'

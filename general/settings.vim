@@ -1,7 +1,7 @@
 " set leader key
 let g:mapleader = "\<Space>"
 
-syntax enable                           " Enables syntax highlighing
+syntax on " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
 set encoding=utf-8                      " The encoding displayed
@@ -35,8 +35,6 @@ set clipboard=unnamedplus               " Copy paste between vim and everything 
 set autochdir                           " Your working directory will always be the same as your working directory
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
-
-au FileType help setlocal number
 
 " You can't stop me
 cmap w!! w !sudo tee %
