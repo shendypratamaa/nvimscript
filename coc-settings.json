@@ -62,12 +62,26 @@
   "eslint.codeAction.showDocumentation": { "enable": true },
   "eslint.codeActionsOnSave.mode": ["all", "problem"],
   "eslint.format.enable": true,
-  // explorer
+  // coc-explorer
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
+  "explorer.icon.enableVimDevicons": true,
+  "explorer.buffer.root.template": ["icon & 1 OPEN EDITOR"],
+  "explorer.file.root.template": ["icon & 1 PROJECT ([root])"],
+  "explorer.file.child.template": [
+    "git | 2 [selection | clip | 1] [indentblankline]"
+  ],
+  "explorer.previewAction.onHover": false,
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
-    "v": "open:vsplit"
+    "v": "open:vsplit",
+    "rn": "rename",
+    "cp": "copyFile",
+    "C": "copyFile",
+    "dl": "delete",
+    "D": "delete",
+    "af": "addFile",
+    "ad": "addDirectory"
   },
   "list.normalMappings": {
     "<C-c>": "do:exit"
