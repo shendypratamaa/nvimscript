@@ -8,6 +8,7 @@ source $HOME/.config/nvim/intellisense/sneak.vim
 source $HOME/.config/nvim/intellisense/telescope.vim
 source $HOME/.config/nvim/intellisense/tree-sitter.vim
 source $HOME/.config/nvim/intellisense/signify.vim
+source $HOME/.config/nvim/intellisense/lazygit.vim
 source $HOME/.config/nvim/themes/scroll/smtscroll.vim
 source $HOME/.config/nvim/themes/dashboard.vim
 source $HOME/.config/nvim/themes/webdevicon.vim
