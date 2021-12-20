@@ -75,6 +75,14 @@
   "list.insertMappings": {
     "<C-c>": "do:exit"
   },
+  // coc-emmet
+  "emmet.showEpandedAbbreviation": true,
+  "emmet.includeLanguages": {
+    "html": "html",
+    "javascript": "jaascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "emmet.excludeLanguages": ["markdown"],
   // ts cofig
   "tsserver.enable": true,
   "tsserver.formatOnType": true,

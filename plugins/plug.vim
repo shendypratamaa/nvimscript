@@ -34,4 +34,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'liuchengxu/vim-which-key'
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'akinsho/bufferline.nvim'
+  Plug 'mattn/emmet-vim'
 call plug#end()
