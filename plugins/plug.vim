@@ -17,7 +17,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
   Plug 'windwp/nvim-ts-autotag'
-  Plug 'andymass/vim-matchup'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'karb94/neoscroll.nvim'
   Plug 'lukas-reineke/indent-blankline.nvim'

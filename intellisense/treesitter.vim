@@ -8,9 +8,11 @@ lua <<EOF
     },
     autotag = {
       enable = true,
-    },
-    matchup = {
-      enable = true,
+      filetypes = {'html', 'javascript', 'javascriptreact', 'typescriptreact'},
+      skip_tags = {
+        'area', 'base', 'br', 'col', 'command', 'embed', 'hr', 'img', 'slot',
+        'input', 'keygen', 'link', 'meta', 'param', 'source', 'track', 'wbr','menuitem'
+      }
     },
     incremental_selection = {
       enable = true,
@@ -21,9 +23,6 @@ lua <<EOF
         node_decremental = "grm",
       }
     },
-    indent = {
-      enable = true, 
-    }
   })
 EOF
 
