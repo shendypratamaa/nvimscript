@@ -52,8 +52,6 @@
   "eslint.quiet": false,
   "eslint.onIgnoredFiles": ["warn", "off"],
   "eslint.probe": ["html", "mardown"],
-  "coc.source.emoji.filetypes": ["markdown"],
-  "coc.source.emoji.triggerCharacters": ["TRIGGERCHAR"],
   "eslint.codeAction.dsableRuleComment": {
     "enable": true,
     "location": "separateLine"
