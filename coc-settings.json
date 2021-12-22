@@ -100,10 +100,12 @@
   "emmet.showEpandedAbbreviation": true,
   "emmet.includeLanguages": {
     "html": "html",
-    "javascript": "jaascriptreact",
+    "javascript": "javascriptreact",
     "typescript": "typescriptreact"
   },
   "emmet.excludeLanguages": ["markdown"],
+  // coc-snippets
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
   // ts cofig
   "tsserver.enable": true,
   "tsserver.formatOnType": true,

@@ -33,4 +33,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'akinsho/bufferline.nvim'
   Plug 'mattn/emmet-vim'
   Plug 'kdheepak/lazygit.nvim'
+  Plug 'Honza/vim-snippets'
 call plug#end()
