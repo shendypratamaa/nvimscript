@@ -61,7 +61,7 @@ function! s:show_documentation()
 endfunction
 
 " Symbol renaming.
-nmap <leader>rn <Plug>(coc-rename)
+nmap <C-R>n <Plug>(coc-rename)
 
 " Formatting selected code.
 xmap <leader>f  <Plug>(coc-format-selected)
@@ -135,6 +135,11 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 " Open Explorer
 nmap <C-n> :CocCommand explorer<CR>
+
+autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
+
+autocmd User CocDiagnosticChange,CocGitStatusChange
+    \ call CocActionAsync('runCommand', 'explorer.doAction', 'closest', ['refresh'])
 
 " coc-react-refactor
 xmap <leader>rf :<Plug>(coc-codeaction-selected)
