@@ -1,9 +1,6 @@
 lua <<EOF
-
   local enabled_list = {'vim', 'lua','javascript', 'javascriptreact', 'typescriptreact', 'typescript'}
-
   local parsers = require('nvim-treesitter.parsers')
-
   require'nvim-treesitter.configs'.setup({
     ensure_installed = "maintained",
     ignore_install = { "haskel" },
