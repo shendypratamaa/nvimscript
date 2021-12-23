@@ -59,3 +59,6 @@ nnoremap <silent><leader>3 <Cmd>BufferLineGoToBuffer 3<CR>
 
 " open telescope
 nnoremap <M-p> :<c-u>:Telescope<cr>
+
+" remove search by blocking text or symbol
+nnoremap <C-c> :<c-u>:noh<cr>
