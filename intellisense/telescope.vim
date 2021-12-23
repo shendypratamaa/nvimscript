@@ -1,6 +1,14 @@
 " Find files using Telescope command-line sugar.
 lua << EOF
 require('telescope').setup{
+  extension = {
+    fzf = {
+      fuzzy = true,
+      override_generic_sorter = true,
+      override_file_sorter = true,
+      case_mode = 'smart-case'
+    }
+  },
   defaults = {
     vimgrep_arguments = {
       'rg',
@@ -20,14 +28,6 @@ require('telescope').setup{
     selection_strategy = "reset",
     sorting_strategy = "descending",
     layout_strategy = "horizontal",
-    layout_config = {
-      horizontal = {
-        mirror = false,
-      },
-      vertical = {
-        mirror = false,
-      },
-    },
     file_ignore_patterns = {},
     border = {},
     path_display = {},
@@ -41,9 +41,10 @@ require('telescope').setup{
     qflist_previewer = require'telescope.previewers'.vim_buffer_qflist.new,
     buffer_previewer_maker = require'telescope.previewers'.buffer_previewer_maker,
     file_sorter =  require'telescope.sorters'.get_fuzzy_file,
-    generic_sorter =  require'telescope.sorters'.get_generic_fuzzy_sorter,
+    generic_sorter =  require'telescope.sorters'.get_fzf_sorter,
+    extension = require'telescope'.load_extension('fzf')
   },
-} 
+}
 EOF
 
 nnoremap <silent><leader>ff :lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({}))<CR>
@@ -51,6 +52,7 @@ nnoremap <silent><leader>ff :lua require'telescope.builtin'.find_files(require('
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+nnoremap <leader>br <cmd>Telescope file_browser<cr>
 
 nnoremap <silent> <Leader>tc :DashboardChangeColorscheme<CR>
 
