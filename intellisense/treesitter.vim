@@ -47,6 +47,8 @@ let g:nvcode_termcolors=256
 colorscheme dracula
 
 if (has("termguicolors"))
-    set termguicolors
+  set termguicolors
   hi Normal guibg=NONE ctermbg=NONE
+  hi clear cursorline
+  hi Search guibg=#ff9df0 guifg=NONE
 endif
