@@ -3,10 +3,10 @@ require('bufferline').setup {
     numbers = function(opts)
      return string.format('%s', opts.lower(opts.ordinal))
     end,
-    close_command = "bdelete! %d",      
+    close_command = "bdelete! %d",
     right_mouse_command = "bdelete! %d",
-    left_mouse_command = "buffer %d",  
-    middle_mouse_command = nil,          
+    left_mouse_command = "buffer %d",
+    middle_mouse_command = nil,
     indicator_icon = '',
     buffer_close_icon = '',
     modified_icon = '●',
@@ -29,7 +29,7 @@ require('bufferline').setup {
       }
     },
     max_name_length = 18,
-    max_prefix_length = 15, 
+    max_prefix_length = 15,
     tab_size = 20,
     diagnostics = "coc",
     diagnostics_update_in_insert = true,
