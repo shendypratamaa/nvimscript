@@ -11,7 +11,7 @@ source $HOME/.config/nvim/intellisense/signify.vim
 source $HOME/.config/nvim/intellisense/lazygit.vim
 source $HOME/.config/nvim/themes/scroll/smtscroll.vim
 source $HOME/.config/nvim/themes/dashboard.vim
-source $HOME/.config/nvim/themes/webdevicon.vim
+source $HOME/.config/nvim/themes/nvimwebdevicons.lua
 source $HOME/.config/nvim/themes/emmet.vim
 source $HOME/.config/nvim/themes/lualine.lua
 source $HOME/.config/nvim/themes/indentblankline.lua

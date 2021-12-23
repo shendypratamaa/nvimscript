@@ -21,7 +21,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'karb94/neoscroll.nvim'
   Plug 'lukas-reineke/indent-blankline.nvim'
   Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
-  Plug 'ryanoasis/vim-devicons'
   Plug 'glepnir/dashboard-nvim'
   Plug 'mhinz/vim-signify'
   Plug 'tpope/vim-rhubarb'
