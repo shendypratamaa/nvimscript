@@ -75,6 +75,8 @@ augroup mygroup
   autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
 augroup end
 
+let g:coc_global_extension = ['coc-tsserver', 'vimlsp', 'coc-styled-components', 'coc-prettier']
+
 " Applying codeAction to the selected region.
 " Example: `<leader>aap` for current paragraph
 xmap <leader>a  <Plug>(coc-codeaction-selected)
