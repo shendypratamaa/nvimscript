@@ -45,11 +45,11 @@
   "eslint.packageManager": "yarn",
   "eslint.alwaysShowStatus": false,
   "eslint.trace.server": "off",
-  "eslint.run": "onType",
+  "eslint.run": "onSave",
   "eslint.autoFixOnSave": true,
   "eslint.quiet": false,
   "eslint.onIgnoredFiles": "warn",
-  "eslint.probe": ["html", "mardown"],
+  "eslint.probe": ["html", "mardown", "javascript", "javascriptreact", "typescript", "typescriptreact"],
   "eslint.codeAction.disableRuleComment": {
     "enable": true,
     "location": "separateLine"
