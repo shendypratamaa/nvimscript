@@ -32,8 +32,6 @@
     "enumMember": "  "
   },
   // format on save
-  "default": true,
-  "line_length": false,
   "prettier.singleQuote": true,
   "coc.preferences.formatOnSaveFiletypes": [
     "html",
@@ -44,21 +42,20 @@
     "typescriptreact"
   ],
   // eslint config
-  "eslint.enable": true,
-  "eslint.packageManager": ["npm", "yarn"],
+  "eslint.packageManager": "yarn",
   "eslint.alwaysShowStatus": false,
   "eslint.trace.server": "off",
   "eslint.run": "onType",
   "eslint.autoFixOnSave": true,
   "eslint.quiet": false,
-  "eslint.onIgnoredFiles": ["warn", "off"],
+  "eslint.onIgnoredFiles": "warn",
   "eslint.probe": ["html", "mardown"],
-  "eslint.codeAction.dsableRuleComment": {
+  "eslint.codeAction.disableRuleComment": {
     "enable": true,
     "location": "separateLine"
   },
   "eslint.codeAction.showDocumentation": { "enable": true },
-  "eslint.codeActionsOnSave.mode": ["all", "problem"],
+  "eslint.codeActionsOnSave.mode": "all",
   "eslint.format.enable": true,
   // coc-explorer
   "explorer.openAction.for.directory": "expandOrCollapse",
@@ -79,7 +76,6 @@
   "explorer.width": 28,
   "explorer.icon.enableNerdfont": true,
   "explorer.icon.source": "nvim-web-devicons",
-  "explorer.icon.enableNvimWebDevicons": true,
   "explorer.quitOnOpen": true,
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
@@ -98,7 +94,7 @@
     "<C-c>": "do:exit"
   },
   // coc-emmet
-  "emmet.showEpandedAbbreviation": true,
+  "emmet.showExpandedAbbreviation": "always",
   "emmet.includeLanguages": {
     "html": "html",
     "javascript": "javascriptreact",
@@ -114,13 +110,9 @@
   "tsserver.formatOnType": true,
   "tsserver.enableJavascript": true,
   "tsserver.reportStyleChecksAsWarnings": true,
-  "typescript.updateImportsOnFIleMove.enable": true,
+  "typescript.updateImportsOnFileMove.enable": true,
   "typescript.referencesCodeLens.enable": true,
-  "typescript.preferences.quotesStyle": "single",
-  "typescript.suggestionActions.enable": true,
-  "typescript.validate.enable": true,
-  "typescript.showUnused": true,
-  "typescript.autoClosingTags": true,
+  "typescript.suggestionActions.enabled": true,
   "typescript.suggest.autoImports": true,
   "typescript.preferences.quoteStyle": "single",
   "typescript.showUnused": true,
@@ -133,5 +125,4 @@
   "javascript.autoClosingTags": true,
   "javascript.showUnused": true,
   "javascript.validate.enable": true
-
 }
