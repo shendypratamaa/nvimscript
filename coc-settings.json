@@ -34,6 +34,7 @@
   // format on save
   "default": true,
   "line_length": false,
+  "prettier.singleQuote": true,
   "coc.preferences.formatOnSaveFiletypes": [
     "html",
     "markdown",
@@ -107,11 +108,11 @@
   // coc-snippets
   "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
   // ts cofig
+  "tsserver.log": "verbose",
+  "tsserver.trace.server": "verbose",
   "tsserver.enable": true,
   "tsserver.formatOnType": true,
   "tsserver.enableJavascript": true,
-  "tsserver.log": "off",
-  "tsserver.trace.server": "off",
   "tsserver.reportStyleChecksAsWarnings": true,
   "typescript.updateImportsOnFIleMove.enable": true,
   "typescript.referencesCodeLens.enable": true,
@@ -120,5 +121,17 @@
   "typescript.validate.enable": true,
   "typescript.showUnused": true,
   "typescript.autoClosingTags": true,
-  "typescript.suggest.autoImports": true
+  "typescript.suggest.autoImports": true,
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.showUnused": true,
+  "typescript.autoClosingTags": true,
+  "typescript.suggest.enabled": true,
+  "typescript.format.enabled": true,
+  "typescript.validate.enable": true,
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.suggest.enabled": true,
+  "javascript.autoClosingTags": true,
+  "javascript.showUnused": true,
+  "javascript.validate.enable": true
+
 }
